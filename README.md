@@ -2,6 +2,7 @@
 
 Esta app web consiste en una vista principal que contiene 3 secciones diferentes las cuales te redirigen a las vistas secundarias, además contiene un pie de página.
 
+
 **IMAGENES DE LA APLICACION WEB:**
 
 Pagina principal
