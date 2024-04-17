@@ -7,6 +7,9 @@
     <!-- Incluir Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
+        .active {
+            background-color: #ECB4EF;
+        }
         footer {
             background-color: #333;
             color: #fff;
@@ -46,16 +49,6 @@
         </nav>
     </header>
     <main class="container mt-4">
-        <h2>Bienvenido a nuestra aplicación inspirada en Adobe Color</h2>
-        <p>Explora una variedad de paletas de colores inspiradas en la naturaleza, el arte y la creatividad. Encuentra la combinación perfecta de colores para tu próximo proyecto de diseño.</p>
-        <p>¡Empieza a explorar ahora!</p>
-        <div class="col-md-4 mb-4">
-            <div class="card" style="width: 300%; height: auto;">
-                <div class="card-body">
-                    <img src="https://assets.videomaker.com/2020/09/Adobe-Color-Wheel.gif" class="img-fluid" alt="Paleta de colores 3" style="width: 100%; height: auto;">
-                </div>
-            </div>
-        </div>
         @yield('content')
     </main>
     <footer class="mt-5 py-2.5 bg-dark text-white">
